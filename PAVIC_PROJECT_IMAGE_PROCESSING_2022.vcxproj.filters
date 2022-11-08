@@ -32,10 +32,16 @@
     <ClInclude Include="Gpu_filters.h">
       <Filter>Resource Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Gpu_filters.cu">
       <Filter>Resource Files</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="src\Image.cu" />
   </ItemGroup>
 </Project>

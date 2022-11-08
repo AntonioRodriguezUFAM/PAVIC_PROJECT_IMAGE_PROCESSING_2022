@@ -182,14 +182,14 @@ namespace PAVICPROJECTIMAGEPROCESSING2022 {
 			// panelColor
 			// 
 			this->panelColor->BackColor = System::Drawing::SystemColors::ActiveCaptionText;
-			this->panelColor->Location = System::Drawing::Point(584, 7);
+			this->panelColor->Location = System::Drawing::Point(832, 7);
 			this->panelColor->Name = L"panelColor";
 			this->panelColor->Size = System::Drawing::Size(428, 55);
 			this->panelColor->TabIndex = 11;
 			// 
 			// buttonCopy
 			// 
-			this->buttonCopy->Location = System::Drawing::Point(584, 74);
+			this->buttonCopy->Location = System::Drawing::Point(832, 74);
 			this->buttonCopy->Name = L"buttonCopy";
 			this->buttonCopy->Size = System::Drawing::Size(129, 37);
 			this->buttonCopy->TabIndex = 12;
@@ -199,7 +199,7 @@ namespace PAVICPROJECTIMAGEPROCESSING2022 {
 			// 
 			// buttonLoad
 			// 
-			this->buttonLoad->Location = System::Drawing::Point(737, 74);
+			this->buttonLoad->Location = System::Drawing::Point(985, 74);
 			this->buttonLoad->Name = L"buttonLoad";
 			this->buttonLoad->Size = System::Drawing::Size(129, 37);
 			this->buttonLoad->TabIndex = 13;
@@ -209,7 +209,7 @@ namespace PAVICPROJECTIMAGEPROCESSING2022 {
 			// 
 			// buttonReset
 			// 
-			this->buttonReset->Location = System::Drawing::Point(883, 74);
+			this->buttonReset->Location = System::Drawing::Point(1131, 74);
 			this->buttonReset->Name = L"buttonReset";
 			this->buttonReset->Size = System::Drawing::Size(129, 37);
 			this->buttonReset->TabIndex = 14;
@@ -250,7 +250,7 @@ namespace PAVICPROJECTIMAGEPROCESSING2022 {
 			// checkGPU
 			// 
 			this->checkGPU->AutoSize = true;
-			this->checkGPU->Location = System::Drawing::Point(548, 132);
+			this->checkGPU->Location = System::Drawing::Point(568, 16);
 			this->checkGPU->Name = L"checkGPU";
 			this->checkGPU->Size = System::Drawing::Size(58, 20);
 			this->checkGPU->TabIndex = 21;
@@ -260,17 +260,18 @@ namespace PAVICPROJECTIMAGEPROCESSING2022 {
 			// time_exec
 			// 
 			this->time_exec->AutoSize = true;
-			this->time_exec->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->time_exec->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 7.8F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->time_exec->Location = System::Drawing::Point(543, 155);
+			this->time_exec->Location = System::Drawing::Point(553, 130);
 			this->time_exec->Name = L"time_exec";
-			this->time_exec->Size = System::Drawing::Size(97, 25);
+			this->time_exec->Size = System::Drawing::Size(64, 16);
 			this->time_exec->TabIndex = 20;
 			this->time_exec->Text = L"Velocity : ";
 			// 
 			// pictureOutput
 			// 
 			this->pictureOutput->BackColor = System::Drawing::SystemColors::AppWorkspace;
+			this->pictureOutput->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->pictureOutput->Location = System::Drawing::Point(662, 205);
 			this->pictureOutput->Name = L"pictureOutput";
 			this->pictureOutput->Size = System::Drawing::Size(599, 445);
@@ -281,6 +282,7 @@ namespace PAVICPROJECTIMAGEPROCESSING2022 {
 			// pictureInput
 			// 
 			this->pictureInput->BackColor = System::Drawing::SystemColors::GradientActiveCaption;
+			this->pictureInput->BorderStyle = System::Windows::Forms::BorderStyle::Fixed3D;
 			this->pictureInput->Location = System::Drawing::Point(8, 205);
 			this->pictureInput->Name = L"pictureInput";
 			this->pictureInput->Size = System::Drawing::Size(601, 445);
@@ -320,7 +322,7 @@ namespace PAVICPROJECTIMAGEPROCESSING2022 {
 			// 
 			// exit
 			// 
-			this->exit->Location = System::Drawing::Point(1140, 165);
+			this->exit->Location = System::Drawing::Point(1140, 162);
 			this->exit->Name = L"exit";
 			this->exit->Size = System::Drawing::Size(121, 37);
 			this->exit->TabIndex = 25;
@@ -331,7 +333,7 @@ namespace PAVICPROJECTIMAGEPROCESSING2022 {
 			// checkCPU
 			// 
 			this->checkCPU->AutoSize = true;
-			this->checkCPU->Location = System::Drawing::Point(679, 135);
+			this->checkCPU->Location = System::Drawing::Point(569, 42);
 			this->checkCPU->Name = L"checkCPU";
 			this->checkCPU->Size = System::Drawing::Size(57, 20);
 			this->checkCPU->TabIndex = 26;
@@ -341,10 +343,10 @@ namespace PAVICPROJECTIMAGEPROCESSING2022 {
 			// txtRun
 			// 
 			this->txtRun->ForeColor = System::Drawing::SystemColors::HotTrack;
-			this->txtRun->Location = System::Drawing::Point(802, 165);
+			this->txtRun->Location = System::Drawing::Point(558, 95);
 			this->txtRun->Name = L"txtRun";
 			this->txtRun->ReadOnly = true;
-			this->txtRun->Size = System::Drawing::Size(148, 22);
+			this->txtRun->Size = System::Drawing::Size(268, 22);
 			this->txtRun->TabIndex = 27;
 			this->txtRun->TextAlign = System::Windows::Forms::HorizontalAlignment::Center;
 			// 
@@ -352,7 +354,7 @@ namespace PAVICPROJECTIMAGEPROCESSING2022 {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1392, 744);
+			this->ClientSize = System::Drawing::Size(1272, 658);
 			this->Controls->Add(this->txtRun);
 			this->Controls->Add(this->checkCPU);
 			this->Controls->Add(this->exit);
@@ -376,7 +378,7 @@ namespace PAVICPROJECTIMAGEPROCESSING2022 {
 			this->Controls->Add(this->label3);
 			this->Controls->Add(this->txtGreen);
 			this->Controls->Add(this->label2);
-			this->MinimumSize = System::Drawing::Size(1410, 791);
+			this->MinimumSize = System::Drawing::Size(1290, 700);
 			this->Name = L"My_Color_bar";
 			this->Text = L"By: Antonio Souto Rodriguez 2022 - IMAGE PROCESSING  CPU VS GPU";
 			this->TopMost = true;

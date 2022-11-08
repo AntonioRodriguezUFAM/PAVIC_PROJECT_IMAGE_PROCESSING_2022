@@ -8,7 +8,7 @@
 #include "Image.h"
 
 
-
+// Image contractor filemane
 Image::Image(const char* filename, int channel_force) {
 	if(read(filename, channel_force)) {
 		printf("Read %s\n", filename);
@@ -18,12 +18,12 @@ Image::Image(const char* filename, int channel_force) {
 		printf("Failed to read %s\n", filename);
 	}
 }
-
+// Image contractor Image propeties
 Image::Image(int w, int h, int channels) : w(w), h(h), channels(channels) {
 	size = w*h*channels;
 	data = new uint8_t[size];
 }
-
+// Image contractor
 Image::Image(const Image& img) : Image(img.w, img.h, img.channels) {
 	memcpy(data, img.data, size);
 }
